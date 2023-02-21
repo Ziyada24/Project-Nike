@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #000;
+  font-family: "Roboto";
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.cart-icon,
+.avatar-icon {
+  color: #fff;
+  margin: 15px;
+}
+
+.navbar-right,
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+  text-transform: uppercase;
+}
+
+.item-menu {
+  color: #fff;
+}
+
+.search-inp {
+  font-size: 15px;
+  max-width: 400px;
+  border-radius: 20px;
+  border: none;
+  outline: #fff;
+  padding: 10px;
+  margin: 7px;
+  background-color: #fff;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-btn {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.register-avatar {
+  cursor: "pointer";
+}
+
+.register-avatar:hover {
+  font-size: 50px;
+}
+
+@media (max-width: 890px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 510px) {
+  .header {
+    justify-content: center;
+  }
+}

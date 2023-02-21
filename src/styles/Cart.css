@@ -1,0 +1,28 @@
+.modalka {
+  text-align: center !important;
+  justify-content: center;
+}
+
+.total-price {
+  margin: 1%;
+}
+
+.btn-buy {
+  color: white;
+  background-color: grey;
+  border-radius: 25px;
+  border: none;
+  padding: 7px 15px;
+  margin: 1%;
+}
+
+.cart-table {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* @media (max-width: 560px) {
+  .cart-table {
+    max-width: 90%;
+  }
+} */
